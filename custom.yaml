@@ -1,0 +1,46 @@
+version: 2
+name: custom
+displayName: Custom MCP Servers
+registry:
+  kali-mcp:
+    description: "Comprehensive penetration testing toolkit with Kali Linux security tools including nmap, nikto, sqlmap, metasploit, and more for educational security testing"
+    title: "Kali Security Tools"
+    type: server
+    dateAdded: "2025-11-17T04:40:00Z"
+    image: kali-mcp-server:latest
+    ref: "https://github.com/JesseEikeland/kali-mcp"
+    readme: "https://github.com/JesseEikeland/kali-mcp/blob/main/README.md"
+    toolsUrl: ""
+    source: "https://github.com/JesseEikeland/kali-mcp"
+    upstream: ""
+    icon: "🔐"
+    tools:
+      - name: nmap_scan
+      - name: masscan_scan
+      - name: nikto_scan
+      - name: wpscan_scan
+      - name: whatweb_scan
+      - name: wafw00f_detect
+      - name: dirb_scan
+      - name: gobuster_scan
+      - name: sqlmap_scan
+      - name: searchsploit_search
+      - name: dnsrecon_scan
+      - name: dnsenum_scan
+      - name: sslscan_test
+      - name: hydra_bruteforce
+      - name: enum4linux_scan
+      - name: list_wordlists
+      - name: get_disclaimer
+    secrets: []
+    metadata:
+      category: automation
+      tags:
+        - security
+        - pentesting
+        - kali-linux
+        - network-scanning
+        - vulnerability-assessment
+        - educational
+      license: MIT
+      owner: local

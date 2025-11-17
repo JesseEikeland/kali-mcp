@@ -1,0 +1,67 @@
+# Scan results
+scans/
+*.log
+*.txt
+*.xml
+*.json
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+.dockerignore
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Wordlists (too large for git)
+wordlists/rockyou.txt
+wordlists/*.gz
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
